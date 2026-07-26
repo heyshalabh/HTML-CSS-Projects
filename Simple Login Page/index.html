@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Login Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <form class="login-form">
+
+        <h2>Welcome Back </h2>
+        <p>Login to continue</p>
+
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" required>
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Gender</label>
+
+        <div class="radio-group">
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+            <label><input type="radio" name="gender"> Other</label>
+        </div>
+
+        <label>Country</label>
+
+        <select>
+            <option>Select Country</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Australia</option>
+        </select>
+
+        <div class="check">
+            <label>
+                <input type="checkbox">
+                Remember Me
+            </label>
+
+            <a href="#">Forgot Password?</a>
+        </div>
+
+        <div class="buttons">
+            <button type="submit">Login</button>
+            <button type="reset" class="reset">Reset</button>
+        </div>
+
+        <p class="register">
+            Don't have an account?
+            <a href="#">Register Now</a>
+        </p>
+
+    </form>
+
+</div>
+
+</body>
+</html>
