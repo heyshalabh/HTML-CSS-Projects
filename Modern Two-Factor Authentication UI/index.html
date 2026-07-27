@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Two-Factor Authentication</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="icon">
+            🛡️
+        </div>
+
+        <h2>Two-Factor Authentication</h2>
+
+        <p>
+            Protect your account with an extra layer of security.
+        </p>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="example@gmail.com">
+
+        <label>Authentication Method</label>
+
+        <div class="methods">
+
+            <label>
+                <input type="radio" name="method">
+                SMS
+            </label>
+
+            <label>
+                <input type="radio" name="method">
+                Email
+            </label>
+
+            <label>
+                <input type="radio" name="method">
+                Authenticator App
+            </label>
+
+        </div>
+
+        <label>Verification Code</label>
+
+        <div class="otp">
+
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+
+        </div>
+
+        <div class="timer">
+            Code expires in <span>02:00</span>
+        </div>
+
+        <div class="options">
+
+            <label>
+                <input type="checkbox">
+                Trust this device
+            </label>
+
+        </div>
+
+        <button>Verify Identity</button>
+
+        <div class="links">
+
+            <a href="#">Resend Code</a>
+
+            <a href="#">Back to Login</a>
+<p></p>
+        </div>
+
+        <div class="security">
+
+            🔒 Your account is protected using two-factor authentication.
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
