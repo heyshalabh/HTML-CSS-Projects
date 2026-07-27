@@ -6,7 +6,7 @@ A modern and responsive **Two-Factor Authentication (2FA) Interface** built usin
 
 ## 📸 Preview
 ```md
-![Two-Factor Authentication UI](./screenshot.png)
+![Two-Factor Authentication UI](screenshot.png)
 ```
 
 ---
