@@ -2,14 +2,13 @@
 
 A modern and responsive **Two-Factor Authentication (2FA) Interface** built using **HTML5** and **CSS3**. This project features a sleek glassmorphism design with a gradient background, OTP verification fields, multiple authentication methods, and a clean user experience.
 
----
+
 
 ## 📸 Preview
-```md
 ![Screenshot](screenshot.png)
-```
 
----
+
+
 
 ## ✨ Features
 
