@@ -4,6 +4,8 @@ A simple and responsive **Used Book Store Website** built using **HTML5** and **
 
 ---
 
+![BookCycle Screenshot](screenshot.png)
+
 ## 🚀 Features
 
 - 📖 Responsive Book Store Homepage
@@ -52,12 +54,10 @@ BookCycle/
 
 ---
 
-## 📸 Screenshot
-
-> Add your project screenshot inside the project folder and name it **screenshot.jpeg**.
 
 
-![BookCycle Screenshot](screenshot.png)
+
+
 
 
 ---
