@@ -1,0 +1,61 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.productcard{
+ width: 300px;
+ margin: 50px auto;
+ padding: 20px;
+ background-color: rgb(1, 44, 44);
+ color: aliceblue;
+
+ border: 3px solid rgb(5, 187, 166);
+ border-radius: 20px;
+ text-align: center;
+
+}
+.productcard img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+.productcard h2{
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+.description{
+    font-size: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #cdc7c7;
+
+}
+.price{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #cff0f5;
+}
+
+.button{
+    padding: 10px 25px;
+    background-color: #e1e7e9;
+    color: black;
+     
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+}
